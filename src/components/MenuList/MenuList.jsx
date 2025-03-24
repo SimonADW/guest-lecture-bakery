@@ -6,8 +6,11 @@ import bakeryItems from "../../assets/data";
 const MenuList = ({
 	setCartContent,
 	cartContent,
-}) => {
-	const [addToCartButtonActive, setAddToCartButtonActive] = useState(null)
+	setAddToCartButtonActive,
+	addToCartButtonActive }) => {
+
+	// Lifted after confirmOrderModal was introduced (will keep state here, close to usage first)
+	// const [addToCartButtonActive, setAddToCartButtonActive] = useState(null)
 	
 	return (
 		<>

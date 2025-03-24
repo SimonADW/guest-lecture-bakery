@@ -4,14 +4,13 @@ import CounterButton from "../CounterButton/CounterButton";
 
 const MenuItem = ({
 	item,
-	index,
 	addToCartButtonActive,
 	setAddToCartButtonActive,
 	setCartContent,
 	itemQuantity,
 }) => {
 
-	console.log("MenuItem rendered");
+	console.log("Button active", addToCartButtonActive);
 	
 
 	const addItemToCart = () => {

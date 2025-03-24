@@ -116,8 +116,8 @@ const ShoppingCart = ({ cartContent, setCartContent, setConfirmModalOpen }) => {
 				</ul>
 
 				<button
-					// onClick={() => setConfirmModalOpen(true)}
-					className={styles.confirmOrderButton}
+					onClick={() => setConfirmModalOpen(true)}
+					className={styles.confirmOrderButton}					
 				>
 					Confirm Order
 				</button>
