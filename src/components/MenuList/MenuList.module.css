@@ -1,0 +1,36 @@
+.menuList {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.dessertHeader {
+	font-weight: 700;
+	margin-bottom: 1rem;
+	letter-spacing: .8px;
+}
+
+.dessertHeader::after {
+	display: inline-block;
+	content: "🪽";
+	font-size: 34px;
+}
+
+.dessertHeader::before {
+	display: inline-block;
+	content: "🪽";
+	transform: rotateY(180deg);
+	font-size: 34px;
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+	.menuList {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 2rem;		
+	}	
+}
