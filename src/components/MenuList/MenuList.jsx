@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./MenuList.module.css";
 import MenuItem from "../MenuItem/MenuItem";
 import bakeryItems from "../../assets/data";

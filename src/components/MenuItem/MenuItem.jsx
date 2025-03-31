@@ -10,9 +10,6 @@ const MenuItem = ({
 	itemQuantity,
 }) => {
 
-	console.log("Button active", addToCartButtonActive);
-	
-
 	const addItemToCart = () => {
 		setCartContent((prev) => {
 			// Find existing item
