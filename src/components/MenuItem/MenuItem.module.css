@@ -1,12 +1,15 @@
 .menuItem {	
-	font-size: 1.3rem;
-
+	border-bottom: 2px solid var(--color-Rose-400);
+	border-bottom-right-radius: 0.3rem;
+	border-bottom-left-radius: 0.3rem;
+	padding-bottom: 1rem;
 	display: flex;
 	flex-direction: column;	
+	font-size: 1.3rem;
 }
 
-.menuItem img {
-	border-radius: 1rem;
+.menuItem img {	
+	border-radius: 0.5rem;
 }
 
 .menuItem > button,
